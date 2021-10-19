@@ -1,0 +1,46 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.keys {
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+}
+
+.whiteKeys {
+  width: 100px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.upperKeys {
+  position: absolute;
+  display: flex;
+  height: 10vh;
+  width: 100%;
+}
+
+.blackKeys {
+  background-color: black;
+  width: 50px;
+  margin-left: 50px;
+  transform: translateX(50%);
+}
+
+.blackKeys:nth-of-type(3),
+.blackKeys:nth-of-type(7) {
+  visibility: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */
